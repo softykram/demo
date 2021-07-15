@@ -1,0 +1,150 @@
+:root {
+  --varWidthPrincipal:1280px;
+  --varColorP: #77FCCE;
+  --varColorS: #6C6C6C;
+  --varColorT: #19191B;
+
+  --varColorA: #005EB8;
+  --varColorB: #00DCFF;
+  --varColorC: #103B61;
+  --varColorD: #004251;
+  --varColorE: #3B3B48;
+  --varColorF: #00D65D;
+  --varColorE: #B0E056;
+  --varColorF: #0B8043;
+}
+
+
+
+
+#sec1slide1 {
+  background-color: var(--varColorA);
+  text-align: center;
+  color: #fff;
+}
+
+#sec1slide2 {
+  background-color: var(--varColorB);
+}
+
+#sec1slide3 {
+  background-color: var(--varColorC);
+}
+
+
+
+
+#sec2 {
+  background-color: var(--varColorD);
+}
+
+#sec3 {
+  background-color: var(--varColorF);
+}
+
+
+#sec4 {
+  background-color: var(--varColorB);
+}
+
+
+
+
+
+
+
+#fp-nav ul li a span {
+  background-color: #fff;
+}
+
+.fp-slidesNav ul li a span {
+  background-color: #fff;
+}
+
+
+#logo {
+  width: 100px;
+}
+
+.slide {
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+
+/************** HEADER ****************/
+
+.header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+}
+
+
+.hola {
+  width: 100%;
+  font-size: 10vh;
+  color: #fff;
+  font-family: text_titulos;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu {
+  width: 60px;
+  height: 50vh;
+  border: solid 1px #fff;
+  align-items: stretch;
+  display: none;
+}
+
+.menu__link {
+  font-size: 6vh;
+  color: #fff;
+  font-family: text_titulos;
+  text-decoration: none;
+}
+
+.menu__principal {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+
+.text__link {
+  display: none;
+}
+
+
+.menu__principal_a {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+
+
+.fas {
+  width: 80%;
+  height: auto;
+}
+
+
+/************** FUENTES ****************/
+@font-face{
+  font-family: text_titulos;
+  src: url(../font/FontFont_FF.Mark.Pro.Black.otf);
+}
+
+@font-face{
+  font-family: text_parrafos;
+  src: url(../font/Raleway-Medium.ttf);
+}
+
